@@ -284,7 +284,7 @@ Nós podemos definir uma associação hasMany em noos modelo de Articles seguind
         }
     }
 
-Nós também podemos definir uma relção mais especifica usando os setters::
+Nós também podemos definir uma relação mais especifica usando os setters::
 
     class ArticlesTable extends Table
     {
