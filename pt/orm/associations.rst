@@ -274,7 +274,7 @@ Product hasMany Option     Option.product\_id
 Doctor hasMany Patient     Patient.doctor\_id
 ========================== ===================
 
-Nós podemos definir uma associação hasMany em noos modelo de Articles seguindo::
+Nós podemos definir uma associação hasMany em novos modelo de Articles seguindo::
 
     class ArticlesTable extends Table
     {
@@ -284,7 +284,7 @@ Nós podemos definir uma associação hasMany em noos modelo de Articles seguind
         }
     }
 
-Nós também podemos definir uma relção mais especifica usando os setters::
+Nós também podemos definir uma relação mais especifica usando os setters::
 
     class ArticlesTable extends Table
     {
